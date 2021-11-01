@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "*/2 * * * *" # 每隔两分钟更新一次
+    - cron: "*/5 * * * *" # At every 15th minute.
 
 jobs:
   get-feed:
