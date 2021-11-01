@@ -1,4 +1,4 @@
-ame: Get Feed
+name: Get Feed
 
 on:
   schedule:
