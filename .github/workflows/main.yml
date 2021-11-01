@@ -1,8 +1,8 @@
-name: Get Feed
+ame: Get Feed
 
 on:
   schedule:
-    - cron: "*/1 * * * *" # At every 5th minute.
+    - cron: "*/5 * * * *" # At every 5th minute.
 
 jobs:
   get-feed:
