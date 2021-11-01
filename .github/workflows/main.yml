@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # At every 5th minute.
+    - cron: "*/720 * * * *" # At every 1440 minute.
 
 jobs:
   get-feed:
