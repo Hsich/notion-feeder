@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # At every 15th minute.
+    - cron: "*/5 * * * *" # At every 5th minute.
 
 jobs:
   get-feed:
@@ -19,5 +19,5 @@ jobs:
 
       - name: Update Notion Feed
         run: |
-          curl -o index.js https://raw.githubusercontent.com/ravgeetdhillon/notion-feeder/build/dist/index.js
+          curl -o index.js https://raw.githubusercontent.com/Hsich/notion-feeder/build/dist/index.js
           node index.js
